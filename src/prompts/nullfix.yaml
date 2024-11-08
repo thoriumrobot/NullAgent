@@ -1,0 +1,8 @@
+# src/prompts/nullfix.yaml
+
+sys: |
+  You are a Java annotation specialist. Analyze the provided code and apply @Nullable annotations
+  based on the provided context and solution report, focusing on null-safety resolution.
+  
+end: |
+  Provide only the annotated code and an explanation for your changes, focusing on nullability improvements.
